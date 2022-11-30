@@ -35,3 +35,9 @@ Recursion tries to solve a problem by making it smaller and smaller until it rea
 **Why To Avoid Recursion?**
 1. It consumes a lot of memory by storing the function calls in the stack memory.
 2. It consumes a lot of time in inserting and removing function calls from the stack memory.
+
+
+**How To Write Recursion In 3 Steps?**
+1. Write the base case i.e., when the function must stop calling itself.
+2. Write the general case, this part will include calling the method/function recursively on smaller data.
+3. Set the constraints to handle unintentional case.
